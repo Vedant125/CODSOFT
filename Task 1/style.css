@@ -1,0 +1,478 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navbar ul {
+
+    font-size: 20px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+}
+
+.navbar ul a {
+    padding: 34px;
+    text-decoration: none;
+    color: gray;
+}
+
+.navbar ul :hover {
+    color: rgb(0, 0, 0);
+}
+
+.home {
+    background-image: url("andrew-kliatskyi-anzlH8z7CaI-unsplash.jpg");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 135px;
+}
+
+.bg h1,
+h2 {
+    font-size: 50px;
+}
+
+.bg p {
+    font-size: 20px;
+    padding-top: 34px;
+}
+
+.headings {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 24px;
+
+
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    background-color: darkgray;
+    margin-top: 40px;
+
+}
+
+.left-about {
+    margin: 55px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.left-about h1 {
+    font-size: 50px;
+}
+
+#details p {
+    text-align: justify;
+}
+
+#myimage {
+    margin: 55px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#myimage img {
+    height: 380px;
+    width: 380px;
+    border-radius: 200px;
+
+
+}
+
+.personal-cnt {
+    display: flex;
+    flex-direction: column;
+}
+
+.cnt-headings ul,
+.cnt-details ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-top: 10px;
+
+
+}
+
+.cnt-headings ul li,
+.cnt-details ul li {
+    margin: auto;
+    font-weight: bold;
+    color: #e0e0e0;
+
+}
+
+.cnt-details ul li {
+    margin-left: 59px;
+}
+
+.cnt-headings ul li {
+    color: black;
+}
+
+.cnt-details a {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+
+}
+
+.box-1 {
+    width: 400px;
+
+}
+
+.box-1 h3,
+p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.box-1 p {
+    color: rgb(110, 106, 106);
+}
+
+.box-2 {
+    width: 400px;
+}
+
+.box-2 h3,
+p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.box-2 p {
+    color: rgb(110, 106, 106);
+}
+
+.box-3 {
+    width: 400px;
+}
+
+.box-3 h3,
+p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.box-3 p {
+    color: rgb(110, 106, 106);
+}
+
+#skill1 {
+    margin-top: 20px;
+}
+
+.skills-container {
+    margin-top: 23px;
+    display: flex;
+    padding-left: 90px;
+    justify-content: space-evenly;
+
+}
+
+.skill {
+    margin: 15px;
+}
+
+.skill-label {
+    font-weight: bold;
+}
+
+.skill-bar {
+    height: 20px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #b0b0b0;
+    border-radius: 15px;
+}
+
+.skill-progress {
+    background-color: rgba(87, 85, 85, 0.908);
+    border-radius: 15px;
+    height: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
+.html .skill-progress {
+    width: 80%;
+}
+
+.css .skill-progress {
+    width: 70%;
+}
+
+.cpp .skill-progress {
+    width: 80%;
+}
+
+.python .skill-progress {
+    width: 75%;
+}
+
+.dsa .skill-progress {
+    width: 87%;
+}
+
+.communication .skill-progress {
+    width: 75%;
+}
+
+.creativity .skill-progress {
+    width: 85%;
+}
+
+.leadership .skill-progress {
+    width: 80%;
+}
+
+.left-skills,
+.right-skills {
+    width: 40%;
+}
+
+
+#project {
+    margin-top: 100px;
+}
+
+.pjt-container {
+    margin-top: 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.p-top,
+.p-bottom {
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.p-bottom{
+    margin-top: 40px;
+}
+
+.top-left,
+.top-right,
+.bottom-right,
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-left img,
+.top-right img,
+.bottom-left img,
+.bottom-right img {
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.cnt-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+
+
+
+.my-details {
+    display: flex;
+    padding-top: 10px;
+    position: relative;
+    right: 100px;
+
+}
+
+#mine-info p {
+    color: rgb(110, 106, 106);
+    position: relative;
+    top: -15px;
+}
+
+.cnt-info {
+    position: relative;
+    top: -12px;
+    color: rgb(110, 106, 106);
+}
+
+#ph {
+    left: -112px;
+}
+
+#em {
+    left: -73px;
+}
+
+#wb {
+    left: -102px
+}
+
+.myresume {
+    margin-top: 50px;
+    text-align: center;
+    height: 200px;
+    width: auto;
+}
+
+.myresume button {
+    border: none;
+}
+
+.resume-button {
+    color: rgb(238, 238, 238);
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-size: 20px;
+
+}
+
+
+.cnt-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#contact-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-cnt {
+    margin-top: 23px;
+    width: 250px;
+}
+
+.right-cnt {
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+
+.cnt-name,
+.cnt-email,
+.cnt-phone,
+.cnt-link {
+    margin: auto;
+    margin-top: -5px;
+    color: rgb(14, 13, 13);
+}
+
+
+.cnt-name h4 {
+    color: gray
+}
+
+.cnt-email h4 {
+    color: gray;
+}
+
+.cnt-email {
+    position: relative;
+    left: 20px;
+}
+
+.cnt-phone h4 {
+    color: gray;
+}
+
+.cnt-phone {
+    position: relative;
+    right: 22px;
+}
+
+.cnt-link a {
+    text-decoration: none;
+    color: gray;
+    position: relative;
+}
+
+.cnt-link {
+    position: relative;
+
+}
+
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(236, 231, 231);
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.ft{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 50px;
+    background-color: lightgray;
+}

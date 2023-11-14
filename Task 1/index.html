@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MyPortfolio</title>
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li><a href="#abtme">About me</a></li>
+                <li><a href="#skill1">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#cnt">Contact</a></li>
+            </ul>
+            <script>
+                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                    anchor.addEventListener('click', function (e) {
+                        e.preventDefault();
+
+                        document.querySelector(this.getAttribute('href')).scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    });
+                });
+            </script>
+        </div>
+    </nav>
+    <div class="home">
+        <div class="bg">
+            <h1>Hi , I am </h1>
+            <h2>Vedant</h2>
+            <h2>Sonawane</h2>
+            <p id="element"></p>
+        </div>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Artificial Intelligence and Data Science Student', '&amp; Front End Developer.'],
+                typeSpeed: 50,
+                loop: true,
+                showCursor: false,
+            });
+        </script>
+    </div>
+    <div class="headings" id="abtme">
+        <p>About Me</p>
+    </div>
+    <div class="about-me">
+        <div class="left-about">
+            <div class="myinfo">
+                <h1>So , Who am I ?</h1>
+
+                <div id="details">
+                    <p>Hello, I'm Vedant Sonawane, and I'm on an exciting journey as a Frontend Developer. I'm currently
+                        pursuing my education at the All India Shri Shivaji Memorial Society Institute of Information
+                        Technology, with a passion for building user-friendly interfaces and crafting beautiful web
+                        experiences.
+
+                        While my academic background is in Artificial Intelligence and Data Science, my heart lies in
+                        frontend development. I'm committed to learning and growing in this field, and I'm thrilled to
+                        bring my unique perspective to the world of web design and development.
+
+                        My journey is marked by curiosity and the relentless pursuit of excellence. I love combining my
+                        technical knowledge with creative flair to deliver visually appealing and functional websites. I
+                        believe that a great frontend not only looks stunning but also enhances user experiences.
+
+                        In addition to my coursework, I'm constantly expanding my skill set, and I can't wait to take on
+                        new challenges in the world of web development. If you're looking for a dedicated, passionate,
+                        and eager Frontend Developer who can bring a fresh perspective to your projects, I'd love to
+                        connect and collaborate.
+
+                        Let's work together to turn ideas into captivating digital realities. Reach out to me, and let's
+                        embark on this creative journey together</p>
+                    <br><br>
+                    <hr>
+                </div>
+                <div class="personal-cnt">
+                    <div class="cnt-headings">
+                        <ul>
+                            <li>Phone</li>
+                            <li>E-mail</li>
+                            <li>LinkedIn</li>
+                        </ul>
+                    </div>
+                    <div class="cnt-details">
+                        <ul>
+                            <li id="ph">9096382288</li>
+                            <li id="em">vedant3558@gmail.com</li>
+                            <li><a href="https://www.linkedin.com/in/vedant-sonawane-90b203228" target="_blank">Vedant
+                                    Sonawane</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myimage">
+            <img src="LINKEDIN.jpg" alt="my-image">
+        </div>
+
+    </div>
+    <div class="headings" id="e1">
+        <p>Education</p>
+        <br><br>
+        <hr>
+
+    </div>
+    <div id="container">
+        <div class="box-1">
+            <h3>2006-2019</h3>
+            <p>Chavara English Medium School</p>
+            <p>Nandurbar</p><br>
+            <hr>
+        </div>
+        <div class="box-2">
+            <h3>2019-2021</h3>
+            <p>D.R.High School and Junior College</p>
+            <p>Nandurbar</p><br>
+            <hr>
+        </div>
+        <div class="box-3">
+            <h3>2021-2025</h3>
+            <p>All India Shri Shivaji Memorial Society Institute of Information Technology</p>
+            <p>Pune</p>
+            <hr>
+        </div>
+    </div>
+    <div class="headings" id="skill1">
+        <p>Skills</p>
+        <br><br>
+        <hr>
+    </div>
+    <div class="skills-container">
+        <div class="left-skills">
+            <div class="skill html">
+                <span class="skill-label">HTML</span>
+                <div class="skill-bar">
+                    <div class="skill-progress">80%</div>
+                </div>
+            </div>
+
+            <div class="skill css">
+                <span class="skill-label">CSS</span>
+                <div class="skill-bar">
+                    <div class="skill-progress">70%</div>
+                </div>
+            </div>
+
+            <div class="skill cpp">
+                <span class="skill-label">C++</span>
+                <div class="skill-bar">
+                    <div class="skill-progress">80%</div>
+                </div>
+            </div>
+
+            <div class="skill python">
+                <span class="skill-label">Python</span>
+                <div class="skill-bar">
+                    <div class="skill-progress">75%</div>
+                </div>
+            </div>
+        </div>
+        <div class="right-skills">
+            <div class="skill dsa">
+                <span class="skill-label">Data Structures & Algorithms</span>
+                <div class="skill-bar">
+                    <div class="skill-progress">87%</div>
+                </div>
+            </div>
+
+            <div class="skill communication">
+                <span class="skill-label">Communication</span>
+                <div class="skill-bar">
+                    <div class="skill-progress">75%</div>
+                </div>
+            </div>
+
+            <div class="skill creativity">
+                <span class="skill-label">Creativity</span>
+                <div class="skill-bar">
+                    <div class="skill-progress">85%</div>
+                </div>
+            </div>
+
+            <div class="skill leadership">
+                <span class="skill-label">Leadership</span>
+                <div class="skill-bar">
+                    <div class="skill-progress">80%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="headings" id="project">
+        <p>Projects</p><br><br>
+        <hr>
+    </div>
+    <div class="pjt-container">
+        <div class="p-top">
+            <div class="top-left">
+                <img src="Heart_disease_prediction image.png" alt="Heart_disease_prediction">
+                <h3>Heart Disease Prediction Using Machine Learning</h2>
+            </div>
+            <div class="top-right">
+                <img src="Smart_attendance.png" alt="Smart_attendance">
+                <h3>Smart Attendance System using Face Recognition</h2>
+            </div>
+        </div>
+        <div class="p-bottom">
+            <div class="bottom-left">
+                <img src="water-level.png" alt="water-level">
+                <h3>Water Level Monitoring System (IOT)</h2>
+            </div>
+            <div class="bottom-right">
+                <img src="end_french_image.png" alt="end_french_image">
+                <h3>English to French Translation Model</h2>
+            </div>
+        </div>
+        <div class="myresume">
+            <button><a href="VEDANT's Resume.pdf" download="VEDANT's Resume.pdf" class="resume-button">Download
+                    Resume</a></button>
+        </div>
+    </div>
+
+    <div class="headings" id="cnt">
+        <p>Contact Me</p><br>
+        <hr>
+    </div>
+
+    <div class="cnt-container">
+        <div class="left-cnt">
+            <form action="#" method="post" id="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="right-cnt">
+            <div class="cnt-name">
+                <h3>Name</h3>
+                <h4>Vedant Sonawane</h4>
+            </div>
+            <div class="cnt-email">
+                <h3>Email</h3>
+                <h4>vedant3558@gmail.com</h4>
+            </div>
+            <div class="cnt-phone">
+                <h3>Phone</h3>
+                <h4>9096382288<h4>
+            </div>
+            <div class="cnt-link">
+                <h3>LinkedIn</h3>
+                <h4><a href="https://www.linkedin.com/in/vedant-sonawane-90b203228" target="_blank">Vedant Sonawane</a>
+                </h4>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="ft">
+            <p>&copy; Copyright. Designed and Developed by Vedant</p>
+        </div>
+    </footer>
+</body>
+
+</html>
